@@ -132,6 +132,11 @@ document.addEventListener("DOMContentLoaded", () => {
         element.addEventListener("change", updatePassword);
     });
 
+    // So you can edit and make your own password, to look at.
+    elements.password.oninput = (e) => {
+        updateStrength(elements.password.value);
+    }
+
     // Generate
     elements.generate.addEventListener("click", updatePassword);
 
