@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="/static/main.css">
+    <link rel="stylesheet" href="/password-generator/static/password-generator.css">
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+
+    <!-- scripts -->
+    <script type="module" src="/password-generator/static/password-generator-doc.js"></script>
+</head>
+
+<body>
+    <div class="password-generator">
+        <span>
+            <label for="generated-password-input" id="generated-password-label">Password</label>
+            <input type="text" name="generated-password-input" id="generated-password-input" disabled placeholder="Generated password will appear here...">
+        </span>
+        <span>
+            <label for="password-length-input" id="password-length-label">Password Length: </label>
+            <input type="range" name="password-length-input" id="password-length-input" min="0" value="8" max="100" step="1">
+        </span>
+        <!-- checkboxes -->
+        <span>
+            <label for="password-uppercase-input" id="password-uppercase-label">Uppercase (A-Z)</label>
+            <input type="checkbox" name="password-uppercase-input" id="password-uppercase-input" checked>
+        </span>
+        <span>
+            <label for="password-lowercase-input" id="password-lowercase-label">Lowercase (a-z)</label>
+            <input type="checkbox" name="password-lowercase-input" id="password-lowercase-input" checked>
+        </span>
+        <span>
+            <label for="password-numbers-input" id="password-numbers-label">Numbers (0-9)</label>
+            <input type="checkbox" name="password-numbers-input" id="password-numbers-input" checked>
+        </span>
+        <span>
+            <label for="password-symbols-input" id="password-symbols-label">Symbols (!@#$%)</label>
+            <input type="checkbox" name="password-symbols-input" id="password-symbols-input" checked>
+        </span>
+        <span>
+            <label for="password-exclude-similar-input" id="password-exclude-similar-label">Exclude Similar (0 O o 1 l I)</label>
+            <input type="checkbox" name="password-exclude-similar-input" id="password-exclude-similar-input" checked>
+        </span>
+        <span>
+            <label for="password-exclude-ambiguous-input" id="password-exclude-ambiguous-label">Exclude Ambiguous ({ } [ ] / \)</label>
+            <input type="checkbox" name="password-exclude-ambiguous-input" id="password-exclude-ambiguous-input" checked>
+        </span>
+        <!-- Etc -->
+        <span>
+            <p id="password-strength">Password Strength<span class="strength-level" data-level="3">Strong</span></p>
+        </span>
+
+        <span>
+            <button id="password-generate">Generate</button>
+            <button id="password-copy">Copy</button>
+        </span>
+    </div>
+</body>
+
+</html>
