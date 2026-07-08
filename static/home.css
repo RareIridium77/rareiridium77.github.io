@@ -1,0 +1,20 @@
+.github {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: var(--primary-gap);
+
+    white-space: nowrap;
+}
+
+.github h1 {
+    max-width: 500px;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: max-width 0.3s ease-in-out;
+}
+
+.github:has(.github-profile-badge:hover) h1 {
+    max-width: 0;
+}

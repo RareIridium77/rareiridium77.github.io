@@ -39,3 +39,16 @@ nav a::before {
 nav a:hover::before {
     text-decoration: underline;
 }
+
+nav a[type="home"]::before {
+    content: "« ";
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: var(--primary-hs);
+    right: var(--primary-hs);
+
+    text-align: center;
+}

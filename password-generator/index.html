@@ -14,14 +14,19 @@
 </head>
 
 <body>
+    <nav>
+        <a href="/" type="home">Home</a>
+    </nav>
     <div class="password-generator">
         <span>
             <label for="generated-password-input" id="generated-password-label">Password</label>
-            <input type="text" name="generated-password-input" id="generated-password-input" disabled placeholder="Generated password will appear here...">
+            <input type="text" name="generated-password-input" id="generated-password-input" disabled
+                placeholder="Generated password will appear here...">
         </span>
         <span>
             <label for="password-length-input" id="password-length-label">Password Length: </label>
-            <input type="range" name="password-length-input" id="password-length-input" min="0" value="8" max="100" step="1">
+            <input type="range" name="password-length-input" id="password-length-input" min="0" value="8" max="100"
+                step="1">
         </span>
         <!-- checkboxes -->
         <span>
@@ -41,12 +46,15 @@
             <input type="checkbox" name="password-symbols-input" id="password-symbols-input" checked>
         </span>
         <span>
-            <label for="password-exclude-similar-input" id="password-exclude-similar-label">Exclude Similar (0 O o 1 l I)</label>
+            <label for="password-exclude-similar-input" id="password-exclude-similar-label">Exclude Similar (0 O o 1 l
+                I)</label>
             <input type="checkbox" name="password-exclude-similar-input" id="password-exclude-similar-input" checked>
         </span>
         <span>
-            <label for="password-exclude-ambiguous-input" id="password-exclude-ambiguous-label">Exclude Ambiguous ({ } [ ] / \)</label>
-            <input type="checkbox" name="password-exclude-ambiguous-input" id="password-exclude-ambiguous-input" checked>
+            <label for="password-exclude-ambiguous-input" id="password-exclude-ambiguous-label">Exclude Ambiguous ({ } [
+                ] / \)</label>
+            <input type="checkbox" name="password-exclude-ambiguous-input" id="password-exclude-ambiguous-input"
+                checked>
         </span>
         <!-- Etc -->
         <span>
@@ -58,6 +66,10 @@
             <button id="password-copy">Copy</button>
         </span>
     </div>
+    <footer>
+        <p>RareIridium77 ❤ | iloveu <span id="current-year"></span></p>
+        <script type="module" src="/static/current-year.js"></script>
+    </footer>
 </body>
 
 </html>
