@@ -1,0 +1,41 @@
+:root {
+    --primary-text: rgb(233, 91, 14);
+    --links-text: rgb(236, 8, 92);
+
+    --primary-bg: rgb(23, 23, 23);
+
+    --primary-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    --primary-vs: 0;
+    --primary-hs: 25%;
+
+    --primary-gap: 10px;
+}
+
+body {
+    color: var(--primary-text);
+
+    background: var(--primary-bg);
+    font-family: var(--primary-font);
+
+    padding: var(--primary-vs) var(--primary-hs);
+}
+
+body a {
+    color: var(--links-text);
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: var(--primary-gap);
+}
+
+nav a::before {
+    content: "» ";
+}
+
+nav a:hover::before {
+    text-decoration: underline;
+}
