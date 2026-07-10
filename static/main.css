@@ -10,6 +10,19 @@
     --primary-hs: 25%;
 
     --primary-gap: 10px;
+
+    --wip-color: #ffd166;
+    --mjr-color: #ef476f;
+    --sml-color: #8ecae6;
+    --fix-color: #06d6a0;
+    --upd-color: #f78c6b;
+    --imp-color: #cdb4db;
+    --add-color: #90be6d;
+    --ref-color: #bde0fe;
+    --mrg-color: #f4a261;
+    --chg-color: #e9c46a;
+    --angry-color: #ff6b6b;
+    --del-color: #adb5bd;
 }
 
 body {
@@ -19,6 +32,7 @@ body {
     font-family: var(--primary-font);
 
     padding: var(--primary-vs) var(--primary-hs);
+    min-height: 100vh;
 }
 
 body a {
@@ -45,10 +59,6 @@ nav a[type="home"]::before {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: var(--primary-hs);
-    right: var(--primary-hs);
-
+    margin-top: calc(var(--primary-gap) * 4);
     text-align: center;
 }

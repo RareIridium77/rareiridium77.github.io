@@ -1,0 +1,169 @@
+{
+    "user": "RareIridium77",
+    "defaultRepository": "rareiridium77.github.io",
+    "cacheTTL": 600000,
+    "commitLimit": 10,
+    "render": {
+        "loading": "Loading commits...",
+        "errorCommits": "Failed to load commits",
+        "errorRepositories": "Failed to load repositories",
+        "commitDateFormat": "default",
+        "showAuthor": true,
+        "showDate": true,
+        "showSha": true
+    },
+    "keywords": {
+        "wip": {
+            "label": "WIP",
+            "color": "var(--wip-color)"
+        },
+        "major": {
+            "label": "Major Changes",
+            "color": "var(--mjr-color)"
+        },
+        "minor": {
+            "label": "Minor Changes",
+            "color": "var(--sml-color)"
+        },
+        "micro": {
+            "label": "Micro Changes",
+            "color": "var(--sml-color)"
+        },
+        "typo": {
+            "label": "Typo",
+            "color": "var(--sml-color)"
+        },
+        "doc": {
+            "label": "Documentation",
+            "color": "var(--sml-color)"
+        },
+        "docs": {
+            "label": "Documentation",
+            "color": "var(--sml-color)"
+        },
+        "fix": {
+            "label": "Fixed",
+            "color": "var(--fix-color)"
+        },
+        "fixed": {
+            "label": "Fixed",
+            "color": "var(--fix-color)"
+        },
+        "bug": {
+            "label": "Bug",
+            "color": "var(--fix-color)"
+        },
+        "bugfix": {
+            "label": "Bug-Fix",
+            "color": "var(--fix-color)"
+        },
+        "upd": {
+            "label": "Updated",
+            "color": "var(--upd-color)"
+        },
+        "update": {
+            "label": "Updated",
+            "color": "var(--upd-color)"
+        },
+        "updated": {
+            "label": "Updated",
+            "color": "var(--upd-color)"
+        },
+        "imp": {
+            "label": "Improved",
+            "color": "var(--imp-color)"
+        },
+        "improve": {
+            "label": "Improved",
+            "color": "var(--imp-color)"
+        },
+        "improved": {
+            "label": "Improved",
+            "color": "var(--imp-color)"
+        },
+        "add": {
+            "label": "Added",
+            "color": "var(--add-color)"
+        },
+        "added": {
+            "label": "Added",
+            "color": "var(--add-color)"
+        },
+        "ref": {
+            "label": "Refactored",
+            "color": "var(--ref-color)"
+        },
+        "refactored": {
+            "label": "Refactored",
+            "color": "var(--ref-color)"
+        },
+        "refactor": {
+            "label": "Refactored",
+            "color": "var(--ref-color)"
+        },
+        "merge": {
+            "label": "Merged",
+            "color": "var(--mrg-color)"
+        },
+        "changed": {
+            "label": "Changed",
+            "color": "var(--chg-color)"
+        },
+        "changes": {
+            "label": "Changes",
+            "color": "var(--chg-color)"
+        },
+        "fuck": {
+            "label": "Angry :D",
+            "color": "var(--angry-color)"
+        },
+        "shit": {
+            "label": "Angry :D",
+            "color": "var(--angry-color)"
+        },
+        "opt": {
+            "label": "Optimized",
+            "color": "var(--imp-color)"
+        },
+        "optimize": {
+            "label": "Optimized",
+            "color": "var(--imp-color)"
+        },
+        "optimized": {
+            "label": "Optimized",
+            "color": "var(--imp-color)"
+        },
+        "optimizations": {
+            "label": "Optimized",
+            "color": "var(--imp-color)"
+        },
+        "optimization": {
+            "label": "Optimized",
+            "color": "var(--imp-color)"
+        },
+        "simplified": {
+            "label": "Simplified",
+            "color": "var(--imp-color)"
+        },
+        "rm": {
+            "label": "Removed",
+            "color": "var(--del-color)"
+        },
+        "remove": {
+            "label": "Removed",
+            "color": "var(--del-color)"
+        },
+        "removed": {
+            "label": "Removed",
+            "color": "var(--del-color)"
+        },
+        "delete": {
+            "label": "Removed",
+            "color": "var(--del-color)"
+        },
+        "deleted": {
+            "label": "Removed",
+            "color": "var(--del-color)"
+        }
+    }
+}

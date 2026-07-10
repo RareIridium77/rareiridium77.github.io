@@ -18,3 +18,36 @@
 .github:has(.github-profile-badge:hover) h1 {
     max-width: 0;
 }
+
+.repository-widget {
+    margin-bottom: calc(var(--primary-gap) * 3);
+}
+
+#github-repository-widget {
+    display: grid;
+    gap: var(--primary-gap);
+}
+
+#github-repository-widget select {
+    width: 100%;
+    max-width: 360px;
+    color: var(--primary-text);
+    background: var(--primary-bg);
+    border: 1px solid color-mix(in srgb, var(--primary-text), transparent 55%);
+    padding: 6px 8px;
+    font: inherit;
+}
+
+#github-repository-widget ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#github-repository-widget li {
+    line-height: 1.45;
+}
+
+#github-repository-widget small {
+    display: inline-block;
+    margin-top: 2px;
+}
