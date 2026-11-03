@@ -1,4 +1,3 @@
-import proxy from '/static/proxy.js';
 import { cleanMessage } from '/static/utils.js';
 
 const DEFAULT_CONFIG = {
@@ -194,7 +193,7 @@ export default class GithubWidget {
     }
 
     async api(url) {
-        const response = await fetch(proxy(url));
+        const response = await fetch(url);
 
         if (!response.ok)
             throw new Error(response.status);
